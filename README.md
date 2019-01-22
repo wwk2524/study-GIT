@@ -1,1 +1,3 @@
-二高技学校开发框架搭建
+1 vue
+2 element-ui
+3 axios
