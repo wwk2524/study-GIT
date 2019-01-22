@@ -1,0 +1,20 @@
+import demo1 from './demo1.vue'
+import demo2 from './demo2.vue'
+
+const components = [
+    demo1,
+    demo2,
+]
+const install = function (Vue, opts) {
+    components.map(c => {
+        Vue.component(c.name, c)
+    })
+}
+const routes = function () {
+    return [
+        { path: '/wwk/demo1', name: 'demo1', component: demo1 },
+        { path: '/wwk/demo2', name: 'demo2', component: demo2 }
+    ]
+}
+
+export default { install, routes }
