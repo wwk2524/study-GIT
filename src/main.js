@@ -4,15 +4,17 @@ import Element from 'element-ui'
 import App from './App.vue'
 import EgjComponents from '@/components/index.js'
 import 'element-ui/lib/theme-chalk/index.css'
-
 import pubTools from '@/plugins/tools.js'
-
+import tools from '@/components/common/js/tools.js'
+import endpoint from '@/components/common/js/endpoint'
 import api from '@/api/common/account'
 Vue.config.productionTip = false
 
 Vue.use(Element)
 Vue.use(Router)
 Vue.use(pubTools)
+Vue.prototype.$api = tools
+Vue.prototype.$ajax = endpoint
 // 写法1
 var modules = [
   EgjComponents

@@ -1,0 +1,42 @@
+{
+  "code": 1,
+  "desc": "查询成功",
+  "data": {
+    "specialtyDetail": {
+      "id": 8,
+      "specialtyId": 211,
+      "tuition": 5000.00,
+      "costNumber": 30,
+      "quotaNumber": 35,
+      "registrationSite": "25,170",
+      "registrationSiteName": null,
+      "classAddr": 23,
+      "classAddrName": null,
+      "classTime": "晚上",
+      "contactTeacher": "李老师",
+      "contactNumber": "13131111111",
+      "theoryLecturerPrice": 800.00,
+      "theoryTutorPrice": 300.00,
+      "handsOnLecturerPrice": 850.00,
+      "handsOnTutorPrice": 300.00,
+      "specialtyDesc": "22222222222222222222222222222222222222",
+      "createDate": 1535439151000,
+      "creatorId": 15,
+      "updateDate": null,
+      "updaterId": null
+    },
+    "bookList": [{
+      "id": 24,
+      "specialtyId": 211,
+      "textbookId": 4,
+      "textbookName": "演员的自我修养",
+      "createDate": 1535439151000,
+      "creatorId": 15,
+      "updateDate": null,
+      "updaterId": null
+    }]
+  },
+  "token": null,
+  "list": null,
+  "recordCount": null
+}

@@ -1,0 +1,32 @@
+{
+    "code": 1,
+    "desc": "success",
+    "data": [{
+      "id": null,
+      "name": null,
+      "date": 1536969600000,
+      "dateTimeVos": [{
+        "id": null,
+        "startDate": 1537228800000,
+        "endDate": 1537232400000,
+        "reason": "101,周二 8-9------"
+      },
+      {
+          "id": null,
+          "startDate": 1537243200000,
+          "endDate": 1537254000000,
+          "reason": "101,周二 12-15------"
+        },
+        {
+          "id": null,
+          "startDate": 1537408800000,
+          "endDate": 1537412400000,
+          "reason": "101,周si 10-9------"
+        }
+  ]
+    }],
+    "token": null,
+    "list": null,
+    "recordCount": null
+  }
+  

@@ -1,0 +1,98 @@
+{
+  "code": 200,
+  "desc": "success",
+  "data": {
+    "_reson": "班级人数太少，等候下期",
+    "_className": "美容师（初级）36期",
+    "_type": "计算机",
+    "_workType": "计算机办公软件",
+    "_level": "技师",
+    "_prop": "社会招生",
+    "_startDate": "2018/03/02",
+    "_endDate": "2018/03/02",
+    "_signUpEndDate": "2018/03/02",
+    "_unitPart": "深圳市深科技工学校",
+    "_classTime": "晚上",
+    "_classAdviser": "林晓晓",
+    "_tel": "1384957485",
+    "_totalIncome": "10,000",
+    "_totalCharge": "10,000",
+    "_totalLeave": "10,000",
+    "_peopleCount": "20/30",
+    "_place": "2018/03/02",
+    "_applyTime": "确认人姓名",
+    "_pic": "static/images/default_pic.png",
+    "_intrduce": "我是班级简介，我是班级简介，我是班级简介，我是班级简介，我是班级简介，我是班级简介，我是班级简介，我是班级简介，我是班级简介，",
+    "classList": [{
+        "type": "理论",
+        "leval": "高级",
+        "classNo": 5,
+        "charge": 50
+      },
+      {
+        "type": "理论",
+        "leval": "高级",
+        "classNo": 5,
+        "charge": 30
+      },
+      {
+        "type": "理论",
+        "leval": "高级",
+        "classNo": 5,
+        "charge": 100
+      },
+      {
+        "type": "实操",
+        "leval": "高级",
+        "classNo": 5,
+        "charge": 80
+      },
+      {
+        "type": "实操",
+        "leval": "高级",
+        "classNo": 5,
+        "charge": 90
+      },
+      {
+        "type": "实操",
+        "leval": "高级",
+        "classNo": 5,
+        "charge": 10
+      }
+    ],
+    "bookList": {
+      "theory": [{
+        "bookName": "毛泽东思想",
+        "charge": 30
+      }, {
+        "bookName": "毛泽东思想",
+        "charge": 30
+      }, {
+        "bookName": "毛泽东思想",
+        "charge": 30
+      }],
+      "practice": [{
+        "bookName": "毛泽东思想",
+        "charge": 45
+      }, {
+        "bookName": "毛泽东思想",
+        "charge": 45
+      }, {
+        "bookName": "毛泽东思想",
+        "charge": 45
+      }]
+    },
+    "elseList": [{
+      "label": "场地租金",
+      "value": 100
+    }, {
+      "label": "服务费",
+      "value": 100
+    }, {
+      "label": "草稿纸",
+      "value": 100
+    }]
+  },
+  "token": null,
+  "recordCount": 1
+}
