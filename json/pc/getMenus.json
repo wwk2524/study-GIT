@@ -9,6 +9,27 @@
                 "route": "/welcome"
             },
             {
+                "name": "wwk",
+                "icon": "goods",
+                "children": [
+                    {
+                        "name": "demo1",
+                        "route": "/wwk/demo1"
+                    }, {
+                        "name": "demo2",
+                        "route": "/wwk/demo2"
+                    },
+                    {
+                        "name": "demo3",
+                        "route": "/wwk/demo3"
+                    },
+                    {
+                        "name": "demoX",
+                        "route": "/wwk/demoX"
+                    }
+                ]
+            },
+            {
                 "name": "学生管理",
                 "icon": "goods",
                 "children": [

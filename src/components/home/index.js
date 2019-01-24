@@ -3,7 +3,7 @@ import Home from './home.vue'
 import Welcome from '../welcome'
 import StuManage from '../stuManage'
 import RightManage from '../rightManage'
-// import wwkVue from '../wwkVue'
+import wwkVue from '../wwkVue'
 import wzy from '../wzy'
 import signUpManage from '../signUpManage'
 
@@ -11,7 +11,7 @@ const homeComponent = [
   Home
 ]
 const homeChildCompents = [
-  Welcome, StuManage,RightManage,wzy,signUpManage
+  Welcome, StuManage,RightManage,wwkVue,wzy,signUpManage
 ]
 
 const install = function (Vue, opts) {

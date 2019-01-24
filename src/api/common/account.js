@@ -30,7 +30,7 @@ export default {
     })
   },
   getTableData() {
-    return endpoint.http().post("/account/tabledata", data).then(resp => {
+    return endpoint.http().post("/account/tabledata").then(resp => {
       return resp.data
     }).catch(error => {
       throw error
