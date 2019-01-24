@@ -31,7 +31,7 @@
   </div>
 </template>
 
-<script>message:'hello Vue.js'
+<script>
 export default {
   name: "demo1",
   data() {
@@ -64,11 +64,11 @@ export default {
       ],
       num:2,
   };
-nameas:['iwen','imes','ices']
 },
 methods:{
     handlerClick(){                                                                                         
       this.seen=!this.seen
+    }
    }, 
 };
 </script>
