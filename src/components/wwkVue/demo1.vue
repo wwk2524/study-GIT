@@ -6,7 +6,7 @@
     {{value}}
     {{2+3}}
     {{hello}}
-    {{ 0<10?'对的':'错的'}}
+    <!-- {{ 0< 10?'对的':'错的'}} -->
     <p v-html="hello"></p>
     <p v-text="hello"></p>
     <p></p>
@@ -62,21 +62,12 @@ export default {
           age: 23
         }
       ],
-<<<<<<< HEAD
-      num:2,
-  }
-},
-methods:{
-    handlerClick(){                                                                                         
-      this.seen=!this.seen
-=======
       num: 2
     };
   },
   methods: {
     handlerClick() {
       this.seen = !this.seen;
->>>>>>> ec2bb73687e764c871637dd62cc7aa84f16f0eab
     }
   }
 };
