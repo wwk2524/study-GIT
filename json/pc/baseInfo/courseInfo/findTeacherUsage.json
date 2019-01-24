@@ -1,0 +1,65 @@
+{
+    "code": 1,
+    "desc": "success",
+    "data": [
+        {
+            "id": 325,
+            "name": "测试老师三",
+            "date": null,
+            "usageNum": 1,
+            "dateTimeVos": [
+                {
+                    "id": 325,
+                    "startDate": null,
+                    "endDate": null,
+                    "reason": null
+                }
+            ]
+        },
+        {
+            "id": 326,
+            "name": "测试老师四",
+            "date": null,
+            "usageNum": 0,
+            "dateTimeVos": [
+                {
+                    "id": 326,
+                    "startDate": null,
+                    "endDate": null,
+                    "reason": null
+                }
+            ]
+        },
+        {
+            "id": 328,
+            "name": "测试老师六",
+            "date": null,
+            "usageNum": 0,
+            "dateTimeVos": [
+                {
+                    "id": 328,
+                    "startDate": null,
+                    "endDate": null,
+                    "reason": null
+                }
+            ]
+        },
+        {
+            "id": 329,
+            "name": "王一",
+            "date": null,
+            "usageNum": 0,
+            "dateTimeVos": [
+                {
+                    "id": 329,
+                    "startDate": null,
+                    "endDate": null,
+                    "reason": null
+                }
+            ]
+        }
+    ],
+    "token": null,
+    "list": null,
+    "recordCount": null
+}

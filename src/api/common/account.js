@@ -15,8 +15,15 @@ export default {
       throw error
     })
   },
-  getMenus(){
+  getMenus() {
     return endpoint.http().post("/getMenus").then(resp => {
+      return resp.data
+    }).catch(error => {
+      throw error
+    })
+  },
+  selectPastPeriodClass(data) {
+    return endpoint.http().post("/baseInfo/signUp/selectPastPeriodClass", data).then(resp => {
       return resp.data
     }).catch(error => {
       throw error

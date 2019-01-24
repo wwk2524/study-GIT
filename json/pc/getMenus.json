@@ -1,0 +1,43 @@
+{
+    "success": true,
+    "message": "操作成功！",
+    "data": [
+        [
+            {
+                "name": "欢迎页",
+                "icon": "menu",
+                "route": "/welcome"
+            },
+            {
+                "name": "学生管理",
+                "icon": "goods",
+                "children": [
+                    {
+                        "name": "学生列表",
+                        "route": "/stumanage/list"
+                    }
+                ]
+            },
+            {
+                "name": "二维码",
+                "icon": "goods",
+                "route": "/qrcode"
+            },
+            {
+                "name": "权限管理",
+                "icon": "menu",
+                "route": "/rightmanage/index"
+            },
+            {
+                "name": "参考功能",
+                "icon": "goods",
+                "children": [
+                    {
+                        "name": "学员意向列表",
+                        "route": "/stumanage/intent"
+                    }
+                ]
+            }
+        ]
+    ]
+}

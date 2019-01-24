@@ -1,0 +1,172 @@
+#addChildList {
+  width: 96%;
+  height: 200px;
+  overflow-x: auto;
+  border: 1px solid #e6ebf5;
+}
+
+#editInput {
+  display: block;
+  width: 96%;
+  height: 32px;
+  line-height: 32px;
+  padding: 5px;
+  border: 1px solid #e6ebf5;
+}
+
+.iClassName {
+  padding: 7px;
+}
+
+.rotatebottomTrans {
+  transform: rotate(90deg)!important;
+  -ms-transform: rotate(90deg); /* Internet Explorer */
+  -moz-transform: rotate(90deg); /* Firefox */
+  -webkit-transform: rotate(90deg); /* Safari 和 Chrome */
+  -o-transform: rotate(90deg); /* Opera */
+}
+
+.restoreTrans {
+  transform: rotate(0deg);
+  -ms-transform: rotate(0deg); /* Internet Explorer */
+  -moz-transform: rotate(0deg); /* Firefox */
+  -webkit-transform: rotate(0deg); /* Safari 和 Chrome */
+  -o-transform: rotate(0deg); /* Opera */
+  transition: transform .3s;
+}
+
+.dataTable td {
+  border-right: 1px solid #e6ebf5;
+  border-bottom: 1px solid #e6ebf5;
+  text-align: center;
+  color: #5a5e66;
+  font-size: 14px;
+  height: 43px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 43px;
+}
+
+.dataTable .parentTd td {
+  background-color: #f8f8fa;
+}
+
+.dataTable thead td {
+  color: #878d99;
+  font-weight: bold;
+  border-top: 1px solid #e6ebf5;
+}
+
+.dataTable td:first-child {
+  border-left: 1px solid #e6ebf5;
+}
+
+.dataTable .tdLeft {
+  text-align: left;
+  padding-left: 15px
+}
+
+.dataTable .checktree {
+  cursor: pointer;
+}
+
+.changeSpanTab {
+  padding: 2px 5px;
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #e6ebf5;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.changeSpanView {
+  padding: 10px;
+  border-bottom: 1px solid #e6ebf5;
+}
+
+.changeSpanView .active {
+  border: 1px solid #409eff;
+  background-color: #409eff;
+  color: #fff;
+}
+.thead {
+  position: relative;
+}
+.thead .posTitle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background-color: #fff;
+}
+#isoverflow {
+  height: 400px;
+  overflow-x: auto;
+}
+.lev0 {
+  padding-left: 0px;
+}
+.lev1 {
+  padding-left: 20px;
+}
+.lev2 {
+  padding-left: 40px;
+}
+.lev3 {
+  padding-left: 60px;
+}
+.lev4 {
+  padding-left: 80px;
+}
+.lev5 {
+  padding-left: 100px;
+}
+.lev6 {
+  padding-left: 120px;
+}
+.lev7 {
+  padding-left: 140px;
+}
+.lev8 {
+  padding-left: 160px;
+}
+.lev9 {
+  padding-left: 180px;
+}
+.lev10 {
+  padding-left: 200px;
+}
+.lev11 {
+  padding-left: 220px;
+}
+.lev12 {
+  padding-left: 240px;
+}
+.lev13 {
+  padding-left: 260px;
+}
+.lev14 {
+  padding-left: 280px;
+}
+.lev15 {
+  padding-left: 300px;
+}
+.lev16 {
+  padding-left: 320px;
+}
+.lev17 {
+  padding-left: 340px;
+}
+.lev18 {
+  padding-left: 360px;
+}
+.lev19 {
+  padding-left: 380px;
+}
+.lev20 {
+  padding-left: 400px;
+}
+.hiden{
+  display: none;
+}

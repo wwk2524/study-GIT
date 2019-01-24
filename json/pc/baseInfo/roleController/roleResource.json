@@ -1,0 +1,34 @@
+{
+  "code": 200,
+  "desc": "success",
+  "data": null,
+  "token": null,
+  "list": [
+      {
+          "roleId": null,
+          "resId": 1,
+          "resName": "信息管理",
+          "parentResId": 0,
+          "resUrl": "",
+          "resType": 1,
+          "orderId": 1,
+          "childMenus": [
+              {
+                  "roleId": null,
+                  "resId": 2,
+                  "resName": "教职工信息管理",
+                  "parentResId": 1,
+                  "resUrl": "",
+                  "resType": 1,
+                  "orderId": 1,
+                  "childMenus": null,
+                  "roleType": null,
+                  "checked": false
+              }
+          ],
+          "roleType": null,
+          "checked": false
+      }
+  ],
+  "recordCount": 1
+}
