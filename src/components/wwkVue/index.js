@@ -1,9 +1,11 @@
 import demo1 from './demo1.vue'
 import demo2 from './demo2.vue'
+import demoX from './demoX.vue'
 
 const components = [
     demo1,
     demo2,
+    demoX
 ]
 const install = function (Vue, opts) {
     components.map(c => {
@@ -13,7 +15,8 @@ const install = function (Vue, opts) {
 const routes = function () {
     return [
         { path: '/wwk/demo1', name: 'demo1', component: demo1 },
-        { path: '/wwk/demo2', name: 'demo2', component: demo2 }
+        { path: '/wwk/demo2', name: 'demo2', component: demo2 },
+        { path: '/wwk/demoX', name: 'demoX', component: demoX }
     ]
 }
 

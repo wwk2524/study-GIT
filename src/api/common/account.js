@@ -28,5 +28,12 @@ export default {
     }).catch(error => {
       throw error
     })
+  },
+  getTableData() {
+    return endpoint.http().post("/account/tabledata", data).then(resp => {
+      return resp.data
+    }).catch(error => {
+      throw error
+    })
   }
 }
