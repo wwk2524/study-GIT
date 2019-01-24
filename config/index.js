@@ -1,20 +1,20 @@
 'use strict'
 // Template version: 1.3.1
 // see http://vuejs-templates.github.io/webpack for documentation.
+let servers = require('./readJson.js')
+servers.listen(4444, '127.0.0.1')
 
 const path = require('path')
-
 module.exports = {
   dev: {
-
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
       '/api': {
-        target: 'http://127.0.0.1:3000', // 本地
+        target: 'http://127.0.0.1:4444', // 本地
         changeOrigin: true,
-        pathRewrite: {'^/api': ''}
+        pathRewrite: { '^/api': '' }
       }
     },
 

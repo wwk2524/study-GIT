@@ -1,0 +1,38 @@
+{
+  "code": 1,
+  "desc": "success",
+  "data": null,
+  "token": null,
+  "list": [{
+    "id": 1,
+    "classroomCode": "101",
+    "classroomAddr": 25,
+    "classroomAddrName": "科技园校区",
+    "classroomType": 228,
+    "classroomTypeName": "普通",
+    "examinationNumber": 50,
+    "trainNumber": 50,
+    "schoolCode": "201808001",
+    "remark": "备注",
+    "createDate": 1536114482000,
+    "creatorId": 0,
+    "updateDate": 1536114482000,
+    "updaterId": 0
+  }, {
+    "id": 2,
+    "classroomCode": "102",
+    "classroomAddr": 25,
+    "classroomAddrName": "科技园校区",
+    "classroomType": 229,
+    "classroomTypeName": "电教室",
+    "examinationNumber": 40,
+    "trainNumber": 40,
+    "schoolCode": "201808001",
+    "remark": "备注2",
+    "createDate": 1536114482000,
+    "creatorId": 0,
+    "updateDate": 1536114482000,
+    "updaterId": 0
+  }],
+  "recordCount": 2
+}

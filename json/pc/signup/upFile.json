@@ -1,0 +1,17 @@
+{
+  "code": 1,
+  "desc": "上传成功",
+  "data": {
+      "id": 1,
+      "fileName": "某某班级",
+      "filePath": "/instai-kss/4/instai-kss_4_20180410154348311.sql",
+      "fileExt": ".jpeg",
+      "fileSize": 20394,
+      "businessId": null,
+      "businessType": null,
+      "createTime": null
+  },
+  "token": null,
+  "list": null,
+  "recordCount": null
+}

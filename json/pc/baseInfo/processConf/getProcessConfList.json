@@ -1,0 +1,43 @@
+{
+  "code": 1,
+  "desc": "success",
+  "data": null,
+  "token": null,
+  "list": [{
+    "confName": "开班申请",
+    "processConfId": 29,
+    "confType": "1",
+    "parentId": -1,
+    "pointNum": 2,
+    "isEnable": "0"
+  }, {
+    "confName": "开班",
+    "processConfId": 166,
+    "confType": "1",
+    "parentId": -1,
+    "pointNum": 3,
+    "isEnable": "1"
+  }, {
+    "confName": "开班申请1",
+    "processConfId": 170,
+    "confType": "1",
+    "parentId": -1,
+    "pointNum": 2,
+    "isEnable": "1"
+  }, {
+    "confName": "测试",
+    "processConfId": 194,
+    "confType": "1",
+    "parentId": -1,
+    "pointNum": 1,
+    "isEnable": "1"
+  }, {
+    "confName": "888",
+    "processConfId": 224,
+    "confType": "1",
+    "parentId": -1,
+    "pointNum": 2,
+    "isEnable": "1"
+  }],
+  "recordCount": null
+}
