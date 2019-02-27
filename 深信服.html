@@ -1,26 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>深信服官网</title>
-    <style></style>
+    <style>
+        body,
+        div,
+        img,
+        a,
+        p,
+        header,
+        video {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .toplayout {
+            margin: 0 auto;
+            width: 1000px;
+            position: absolute;
+        }
+
+        .toplogo {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .toplist {
+            display: inline-block;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 15px;
+            font-size: 17px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .white {
+            color: white;
+        }
+
+        img.bg-lf {
+            height: 100%;
+            position: absolute;
+            top: 0;
+            z-index: 8;
+            opacity: 0.8;
+        }
+
+        img.bg-re {
+            height: 100%;
+            position: absolute;
+            top: 140px;
+            right: 168px;
+            /* z-index: 8; */
+        }
+    </style>
 </head>
+
 <body>
-    <header id="top">
-        <div class="toplogo"></div>
-        <div class="toplist">
-            <ul>
-                <li><a href>产品与解决方案</a></li>
-                <li><a href>如何购买</a></li>
-                <li><a href>服务支持</a></li>
-                <li><a href>合作发展</a></li>
-                <li><a href>关于我们</a></li>
-                <li><a href>互动社区</a></li>
-                <li><a href>中文</a></li>
-            </ul>
+    <div id="overall">
+        <header class="top">
+            <div class="toplayout">
+                <div class="toplogo">
+                    <img src="print./logo.png" style="width: 150px">
+                </div>
+                <div class="toplist">
+                    <ul>
+                        <li><a href class="white">产品与解决方案</a></li>
+                        <li><a href class="white">如何购买</a></li>
+                        <li><a href class="white">服务支持</a></li>
+                        <li><a href class="white">合作发展</a></li>
+                        <li><a href class="white">关于我们</a></li>
+                        <li><a href class="white">互动社区</a></li>
+                        <li><a href class="white">中文</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="bg">
+            <div class="bg-left">
+                <img src="print./Man.png" class="bg-lf">
+            </div>
+            <div class="rigth">
+                <img src="print./1.png" class="bg-rg">
+            </div>
+
+            <video src="http://download.sangfor.com.cn/Source/default/20181212/home/bg.mov?t=5a" autoplay="" loop=""
+                muted="">
         </div>
-    </header>
+        </video>
+    </div>
 </body>
+
 </html>
