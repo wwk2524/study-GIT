@@ -18,10 +18,20 @@
             padding: 0px;
         }
 
+        .top {
+            position: absolute;
+            height: 80;
+            width: 100%;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            top: 0;
+            left: 0;
+            z-index: 99999
+        }
+
         .toplayout {
             margin: 0 auto;
             width: 1000px;
-            position: absolute;
+            position: relative;
         }
 
         .toplogo {
@@ -31,7 +41,11 @@
 
         .toplist {
             display: inline-block;
+            height: 60px;
+            width: 780px;
+            vertical-align: top;
         }
+        
 
         li {
             display: inline-block;
@@ -47,20 +61,61 @@
             color: white;
         }
 
+        .head-bg {
+            width: 100%;
+            height: 80px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background: transparent;
+        }
+
+        .bg {
+            height: 960px;
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            z-index: 10
+        }
+
         img.bg-lf {
             height: 100%;
-            position: absolute;
+            position: relative;
             top: 0;
             z-index: 8;
-            opacity: 0.8;
+            opacity: 0.2;
         }
 
         img.bg-re {
             height: 100%;
-            position: absolute;
+            position: relative;
             top: 140px;
             right: 168px;
-            /* z-index: 8; */
+            z-index: 8;
+        }
+
+        /* .rigth {
+            width: 300px;
+            height: 500px;
+            margin: 0 auto;
+            position: relative;
+        } */
+        .dropmenu {
+            position: absolute;
+            top: 80px;
+            left: 0;
+            border-radius: 10px;
+            box-sizing: border-box;
+            width: auto;
+            box-shadow: 1px 2px 1px 0.5px #ccc;
+            background: white;
+            padding: 30px 55px 40px 55px;
+            z-index: 999;
+            display: none;
+        }
+
+        video {
+            width: 100%;
         }
     </style>
 </head>
@@ -70,33 +125,230 @@
         <header class="top">
             <div class="toplayout">
                 <div class="toplogo">
-                    <img src="print./logo.png" style="width: 150px">
+                    <a href="#"><img src="print./logo.png" style="width: 150px"></a>
                 </div>
                 <div class="toplist">
                     <ul>
-                        <li><a href class="white">产品与解决方案</a></li>
-                        <li><a href class="white">如何购买</a></li>
-                        <li><a href class="white">服务支持</a></li>
-                        <li><a href class="white">合作发展</a></li>
-                        <li><a href class="white">关于我们</a></li>
-                        <li><a href class="white">互动社区</a></li>
-                        <li><a href class="white">中文</a></li>
+                        <li>
+                            <a href="#" class="white">产品与解决方案</a>
+                            <div class="dropmenu">
+                                <div class="safe">
+                                    <h1>
+                                        <a href="#">智安全</a>
+                                    </h1>
+                                    <dl>
+                                        <dt>网关安全</dt>
+                                        <dd><a href="#">下一代防火墙AF</a></dd>
+                                        <dd><a href="#">上网行为管理AC</a></dd>
+                                        <dd><a href="#">SSL VPN</a></dd>
+                                        <dd><a href="#">硬件VPN</a></dd>
+                                        <dd><a href="#">EasyConnect</a></dd>
+                                        <dd><a href="#">行为感知系统BA</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>旁路检测</dt>
+                                        <dd><a href="#">安全感知平台SIP</a></dd>
+                                        <dd><a href="#">数据库安全审计DAS</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>终端安全</dt>
+                                        <dd><a href="#">企业移动管理EMM</a></dd>
+                                        <dd><a href="#">终端检测响应平台EDR</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>分支组网</dt>
+                                        <dd><a href="#">一体化网关MIG</a></dd>
+                                        <dd><a href="#">广域网优化WOC</a></dd>
+                                        <dd><a href="#">安全SD-WAN2.0</a></dd>
+                                        <dl>
+                                            <dt>终端安全</dt>
+                                            <dd><a href="#">企业移动管理EMM</a></dd>
+                                            <dd><a href="#">终端检测响应平台EDR</a></dd>
+                                        </dl>
+                                    </dl>
+                                    <dl>
+                                        <dt>安全服务</dt>
+                                        <dd><a href="#">信服云盾</a></dd>
+                                        <dd><a href="#">信服云眼</a></dd>
+                                        <dd><a href="#">重构入云业务安全边界</a></dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>安全解决方案</dt>
+                                        <dd><a href="#">等级保护解决方案</a></dd>
+                                        <dd><a href="#">等保一体机解决方案</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="yunit">
+                                    <h1><a href="#">云IT</a></h1>
+                                    <dl>
+                                        <dd><a href="#">企业级云aCloud</a></dd>
+                                        <dd><a href="#">超融合HCI</a></dd>
+                                        <dd><a href="#">桌面云aDesk</a></dd>
+                                        <dd><a href="#">应用交付AD</a></dd>
+                                        <dd><a href="#">软件定义统一存储系统EDS</a></dd>
+                                        <dd><a href="#">新型智慧城市解决方案</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="solution">
+                                    <h1><a href="#">解决方案</a></h1>
+                                    <dl>
+                                        <dd><a href="#">政府</a></dd>
+                                        <dd><a href="#">企业</a></dd>
+                                        <dd><a href="#">金融</a></dd>
+                                        <dd><a href="#">教育</a></dd>
+                                        <dd><a href="#">运营商</a></dd>
+                                        <dd><a href="#">医疗</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="white">如何购买</a>
+                        </li>
+                        <li>
+                            <a href="#" class="white">服务支持</a>
+                            <div class="dropmenu">
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">服务介绍</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">渠道服务政策</a></dd>
+                                        <dd><a href="#">原厂服务政策</a></dd>
+                                        <dd><a href="#">技术服务通路</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">服务信息查询</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">查询服务有效期</a></dd>
+                                        <dd><a href="#">查询维修进度</a></dd>
+                                        <dd><a href="#">服务事件处理记录</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">获取支持</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">在线咨询</a></dd>
+                                        <dd><a href="#">资料库</a></dd>
+                                        <dd><a href="#">软件下载</a></dd>
+                                        <dd><a href="#">建议反馈</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">安全与更新</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">安全服务介绍</a></dd>
+                                        <dd><a href="#">安全中心</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="white">合作发展</a>
+                            <div class="dropmenu">
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">成为合作伙伴</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">渠道政策</a></dd>
+                                        <dd><a href="#">申请合作</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">已是签约渠道</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">渠道资料库</a></dd>
+                                        <dd><a href="#">渠道资质查询</a></dd>
+                                        <dd><a href="#">渠道系统登录</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">技术培训与认证</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">技术认证介绍</a></dd>
+                                        <dd><a href="#">考试指南</a></dd>
+                                        <dd><a href="#">考试大纲</a></dd>
+                                        <dd><a href="#">模拟试卷</a></dd>
+                                        <dd><a href="#">证书查询</a></dd>
+                                        <dd><a href="#">技术培训介绍</a></dd>
+                                        <dd><a href="#">查找授权培训机构</a></dd>
+                                        <dd><a href="#">在线学习</a></dd>
+                                        <dd><a href="#">FAQ</a></dd>
+                                        <dd><a href="#">成为SALP</a></dd>
+                                        <dd><a href="#">讲师专区</a></dd>
+                                        <dd><a href="#">运营管理</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#" class="white">关于我们</a>
+                            <div class="dropmenu">
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">公司</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">了解深信服</a></dd>
+                                        <dd><a href="#">公司特点</a></dd>
+                                        <dd><a href="#">大事记</a></dd>
+                                        <dd><a href="#">联系我们</a></dd>
+                                        <dd><a href="#">人才招聘</a></dd>
+                                    </dl>
+                                </div>
+                                <div class="buyandask">
+                                    <h1>
+                                        <a href="#">资源中心</a>
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">新闻动态</a></dd>
+                                        <dd><a href="#">成功案例</a></dd>
+                                        <dd><a href="#">资料下载</a></dd>
+                                        <dd><a href="#">视频中心</a></dd>
+                                        <dd><a href="#">活动专题</a></dd>
+                                    </dl>
+                                </div>
+
+                                <div class="buyandask">
+                                    <h1>
+                                        集团子公司
+                                    </h1>
+                                    <dl>
+                                        <dd><a href="#">信锐技术</a></dd>
+                                        <dd><a href="#">口袋助理</a></dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#" class="white">互动社区</a></li>
+                        <li><a href="#" class="white">中文</a></li>
                     </ul>
                 </div>
             </div>
+            <div class="head-bg"> </div>
         </header>
         <div class="bg">
-            <div class="bg-left">
+            <div class="bg-left"> </div>
                 <img src="print./Man.png" class="bg-lf">
-            </div>
-            <div class="rigth">
+            
+            <!-- <div class="rigth">
                 <img src="print./1.png" class="bg-rg">
-            </div>
-
+            </div> -->
             <video src="http://download.sangfor.com.cn/Source/default/20181212/home/bg.mov?t=5a" autoplay="" loop=""
                 muted="">
         </div>
-        </video>
     </div>
 </body>
 
